@@ -1,30 +1,18 @@
 # P1_energy_water_analysis
-This repo is used to record Project 1 for Team 7 of UCB Data Analytics Bootcamp (2022-23)
 
-Project Title: Energy and Water Consumption Analysis for Buildings in LA
+##### Project Title: Energy and Water Consumption Analysis for Buildings in LA
 
-Team Members: Yash Kansal, Meera G K, Yeyan Wang, Crystal Wang, Shweta Joshi
+**Team Members:** Yash Kansal, Meera G K, Yeyan Wang, Crystal Wang, Shweta Joshi
 
-Project Description/Outline: We will be analyzing the Socrata Energy and Water Consumption open source data for the City of Los Angeles. We will be focusing on different buildings across the City of LA and try to understand which factors contribute most to energy and water use consumption in the buildings and in turn, which levers could be used by the city to reduce the said consumptions.
+**Project Description/Outline:** We will be analyzing the Socrata Energy and Water Consumption open source data for the City of Los Angeles. We will be focusing on different buildings across the City of LA and try to understand which factors contribute most to energy and water use consumption in the buildings and in turn, which levers could be used by the city to reduce the said consumptions.
 
-Research Questions to Answer:
-Question 1: Which 5 property types have the highest correlation between water use, and carbon emissions and source energy use and carbon emissions?
-Question 2: What property type has highest source EUI consumption and water consumption per square foot for buildings built after 2000?
-Question 3: Does any property type have a correlation between water use and gross building floor area, and if there is a correlation, what is the relationship between water use and gross building floor area for that building type?
-Question 4: For multi-family housing building type, is there a relationship between year built and source EUI, as well as year built water consumption per square foot?
+**Research Questions to Answer:**
+Question 1: Which 5 property types have the highest correlation between Water Use and Carbon Emissions, and Source Energy Use Intensity (Source EUI) and Carbon Emissions?
+Question 2: What property type has highest source energy use intensity and water use per square footage for buildings built after the year of 2000?
+Question 3: Does any property type have a correlation between Water Use and Gross Building Floor Area (GFA), and if there is a correlation, what is the relationship between for building type with highest correlation value?
+Question 4: For multi-family housing building type, check if there is a relationship between year built and source EUI, as well as year built and water use per square foot? 
 
-Dataset Link: https://dev.socrata.com/foundry/data.lacity.org/9yda-i4ya
-
-Breakdown of Tasks:
-Get the data from the API.
-Save the data as Pandas dataframe.
-Clean the dataset.
-Discuss which columns and groupings are required for each question.
-Create specific sub-datasets for each question.
-Create figures (data visualization such as line graph, bar chart, etc.) to analyze the relationships and comparisons.
-Draw conclusions from the results.
-Write a summary report.
-Create a Google Slide Presentation.
+**Dataset Link:** https://dev.socrata.com/foundry/data.lacity.org/9yda-i4ya
 
 Analysis:
 1)	Pull dataframe and create a new dataframe that only includes columns needed and drop rows with the NaN and "Not Available" values
@@ -38,8 +26,8 @@ For Question 1:
 3)	Display the top highly correlated property types for source EUI vs. Carbon Dioxide Emissions
 4)	Create dataframe for plotting
 5)	Show plotting for results
- ![image](https://user-images.githubusercontent.com/118711472/215361273-a27ca23e-df02-4dd9-98d8-5c723b9cd42f.png)
-![image](https://user-images.githubusercontent.com/118711472/215361286-4ec48304-c066-4b0f-bfc2-ae93e0607c7f.png)
+![image](https://user-images.githubusercontent.com/116146774/215669260-c0e7c787-7a7a-4993-9e13-2533af04d319.png)
+![image](https://user-images.githubusercontent.com/116146774/215669494-b66baa13-d89f-4f76-b6c5-9036dc017026.png)
 
  
 For Question 2: 
